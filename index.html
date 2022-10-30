@@ -1,0 +1,35 @@
+<DOCTYPE HTML>
+<html lang="es">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible"> MP Auto Adorno
+    <meta name="viewport" content="width=device-width, initaial-scale=1.0">
+    <title> Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <head>
+   <body>
+
+      <form class="form"   action="https://formspree.io/f/xvoywlpg"
+      method="POST">
+         <div class="form_container">
+            <h2 class="form_title">Agendar Cita</h2>
+         <input type="text" class="form_input" placeholder="Nombre completo:" name="name">
+         <input type="email" class="form_input" placeholder="Email:" name="_replyto"> 
+         <input type="datetime-local" class="form_input" placeholder="fecha:" name="fecha">
+   
+          
+          <select id="category_serv" onclick="categoryValue()" name="Servicios">
+            <option value="">Servicios</option> 
+            <option value="Instalación de accesorios">Instalación de accesorios</option>
+            <option value="Laminado Automotriz">Laminado Automotriz</option>
+            <option value="Tapicería">Tapicería</option>
+            <option value="Alarmas y Seguridad">Alarmas y Seguridad</option>
+            <option value="Sistema de Audio">Sistema de Audio</option>
+         <textarea class="form_input" placeholder="Mensaje:" name="message"></textarea></textarea>
+         <input type="submit" value="Enviar" class="Form_cta">  
+
+         </div>
+      </form>
+   </body>
+   <html>
